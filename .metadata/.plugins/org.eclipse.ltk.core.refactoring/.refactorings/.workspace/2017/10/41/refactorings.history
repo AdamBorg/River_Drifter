@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;River_Drifter&apos; to &apos;River_Drifter_Rx&apos;" description="Rename resource &apos;River_Drifter&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/River_Drifter" name="River_Drifter_Rx" stamp="1507729420000" updateReferences="true"/>
+</session>
