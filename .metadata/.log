@@ -38,3 +38,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-10-11 23:44:43.330
 !MESSAGE Indexed 'CC3501-Lab3-RX' (17 sources, 83 headers) in 2.18 sec: 3,545 declarations; 10,417 references; 0 unresolved inclusions; 25 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-10-11 23:48:54.153
+!MESSAGE Indexed 'River_Drifter_Tx' (6 sources, 62 headers) in 1.53 sec: 2,392 declarations; 6,940 references; 0 unresolved inclusions; 28 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-10-11 23:49:58.495
+!MESSAGE Indexed 'CC3501-Lab3-TX' (22 sources, 88 headers) in 2.17 sec: 3,779 declarations; 12,455 references; 0 unresolved inclusions; 23 syntax errors; 0 unresolved names (0%)

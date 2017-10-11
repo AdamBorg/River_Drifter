@@ -1,77 +1,37 @@
-23:40:36 **** Incremental Build of configuration Debug for project River_Drifter ****
+23:51:26 **** Build of configuration Debug for project River_Drifter_Tx ****
 make all 
 Building file: ../Sources/Events.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
 Finished building: ../Sources/Events.c
  
 Building file: ../Sources/main.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
 Finished building: ../Sources/main.c
  
-Building file: ../Generated_Code/AdcLdd1.c
+Building file: ../Project_Settings/Startup_Code/startup.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AdcLdd1.d" -MT"Generated_Code/AdcLdd1.o" -c -o "Generated_Code/AdcLdd1.o" "../Generated_Code/AdcLdd1.c"
-Finished building: ../Generated_Code/AdcLdd1.c
- 
-Building file: ../Generated_Code/BitIoLdd1.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
-Finished building: ../Generated_Code/BitIoLdd1.c
- 
-Building file: ../Generated_Code/BitIoLdd2.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
-Finished building: ../Generated_Code/BitIoLdd2.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
  
 Building file: ../Generated_Code/Cpu.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
 Finished building: ../Generated_Code/Cpu.c
- 
-Building file: ../Generated_Code/DIR_33V.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/DIR_33V.d" -MT"Generated_Code/DIR_33V.o" -c -o "Generated_Code/DIR_33V.o" "../Generated_Code/DIR_33V.c"
-Finished building: ../Generated_Code/DIR_33V.c
- 
-Building file: ../Generated_Code/ExtIntLdd1.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ExtIntLdd1.d" -MT"Generated_Code/ExtIntLdd1.o" -c -o "Generated_Code/ExtIntLdd1.o" "../Generated_Code/ExtIntLdd1.c"
-Finished building: ../Generated_Code/ExtIntLdd1.c
- 
-Building file: ../Generated_Code/Hall_Effect_A.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Hall_Effect_A.d" -MT"Generated_Code/Hall_Effect_A.o" -c -o "Generated_Code/Hall_Effect_A.o" "../Generated_Code/Hall_Effect_A.c"
-Finished building: ../Generated_Code/Hall_Effect_A.c
- 
-Building file: ../Generated_Code/NOT_PWM.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/NOT_PWM.d" -MT"Generated_Code/NOT_PWM.o" -c -o "Generated_Code/NOT_PWM.o" "../Generated_Code/NOT_PWM.c"
-Finished building: ../Generated_Code/NOT_PWM.c
  
 Building file: ../Generated_Code/PE_LDD.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
 Finished building: ../Generated_Code/PE_LDD.c
- 
-Building file: ../Generated_Code/Pressure_Out.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pressure_Out.d" -MT"Generated_Code/Pressure_Out.o" -c -o "Generated_Code/Pressure_Out.o" "../Generated_Code/Pressure_Out.c"
-Finished building: ../Generated_Code/Pressure_Out.c
- 
-Building file: ../Generated_Code/TU1.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
-Finished building: ../Generated_Code/TU1.c
  
 Building file: ../Generated_Code/Vectors.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/PDD" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Static_Code/IO_Map" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Sources" -I"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
 Finished building: ../Generated_Code/Vectors.c
  
-Building target: River_Drifter.elf
+Building target: River_Drifter_Tx.elf
 Invoking: Cross ARM C++ Linker
-arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter/Project_Settings/Linker_Files" -Wl,-Map,"River_Drifter.map" -specs=nano.specs -specs=nosys.specs -o "River_Drifter.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR_33V.o ./Generated_Code/ExtIntLdd1.o ./Generated_Code/Hall_Effect_A.o ./Generated_Code/NOT_PWM.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pressure_Out.o ./Generated_Code/TU1.o ./Generated_Code/Vectors.o   
-Finished building target: River_Drifter.elf
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Adam/Documents/GitHub/River_Drifter/River_Drifter_Tx/Project_Settings/Linker_Files" -Wl,-Map,"River_Drifter_Tx.map" -specs=nano.specs -specs=nosys.specs -o "River_Drifter_Tx.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o   
+Finished building target: River_Drifter_Tx.elf
  
